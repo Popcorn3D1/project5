@@ -6,7 +6,6 @@ body {
     font-family: "Rubik", Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     text-align: center;
-    width: 80%;
     line-height: 175%;
     color: rgb(38, 16, 63);
 }
@@ -19,12 +18,13 @@ h2 {
 }
 
 section {
+    background-image: url("https://www.transparenttextures.com/patterns/noise-pattern-with-subtle-cross-lines.png");
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1em;
     border: .25em solid rgb(38, 16, 63);
     border-radius: 1.5em;
-    width: 60%;
+    width: 80%;
     padding: 1em;
 }
 
@@ -32,11 +32,17 @@ span:lang(zh) {
     font-family: "ZCOOL KuaiLe", Verdana, Geneva, Tahoma, sans-serif;
 }
 
+span:lang(ja) {
+    font-family: "Mochiy Pop One", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+
 p {
     text-align: left;
 }
 
 iframe {
+    max-width: 100%;
     width: 100%;
 }
 
